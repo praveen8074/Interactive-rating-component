@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: "Overpass", sans-serif;
+    background-color:  hsl(216, 12%, 8%);
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 100%;
+}
+.container{
+    background-color:hsl(213, 19%, 18%);
+    padding: 30px;
+    width: 20%;
+    height: 50%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:flex-start;
+    gap: 10px;
+
+}
+.last{
+    text-align: center;
+}
+
+.container img{
+    background-color:hsl(214, 6%, 23%);  
+    padding: 5px;
+    border-radius: 40px;
+}
+.container h1{
+    color:  hsl(0, 0%, 100%);
+    font-size: 30px;
+    margin-top: 10px;
+}
+p{
+    color: hsl(217, 12%, 63%) ;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.btn{
+    padding: 10px;
+    border-radius:50%;
+    color: hsl(0, 0%, 100%) ;
+    flex-wrap: wrap;
+    background-color:hsl(214, 6%, 23%);  
+    width: 100%;
+    height: 100%;
+    border: none;
+   
+}
+.btn:hover{
+    background-color: hsl(25, 97%, 53%);
+    cursor: pointer;
+}
+.but-submit{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+    margin-top: 10px;
+    border: none;
+    
+}
+.but-submit:hover{
+    cursor:pointer;
+    background-color: white;
+    color:hsl(25, 97%, 53%) ;
+}
+.btn:focus{
+    background-color:  hsl(217, 12%, 63%);
+}
+.thank-you{
+    background-color: hsl(213, 19%, 18%);
+    padding: 30px;
+    width: 20%;
+    height: 50%;
+    border-radius: 20px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    gap: 10px;
+
+    
+}
+.first{
+    color: hsl(25, 97%, 53%) ;
+    background-color:hsl(214, 6%, 23%) ;
+    font-size: 15px;
+    padding: 5px 10px;
+    border-radius: 20px;
+
+}
+h2{
+    color: white;
+}
+.hidden{
+    display: none;
+}
+.attribution {
+    font-size: 11px; 
+    text-align: center; 
+    margin-top: 10px;
+    color: hsl(25, 97%, 53%) ;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+ 
